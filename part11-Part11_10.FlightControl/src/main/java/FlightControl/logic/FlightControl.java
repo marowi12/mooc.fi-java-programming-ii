@@ -9,8 +9,8 @@ import flightControl.domain.Place;
 
 public class FlightControl {
 
-    private HashMap<String, Airplane> airplanes = new HashMap<>();
-    private HashMap<String, Flight> flights = new HashMap<>();
+    private HashMap<String, Airplane> airplanes;
+    private HashMap<String, Flight> flights;
     private Map<String, Place> places;
 
     public FlightControl() {
